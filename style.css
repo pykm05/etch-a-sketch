@@ -9,14 +9,25 @@ body {
   flex-direction: column;
 }
 
+.edit {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button,
+input {
+  height: 60px;
+  width: 150px;
+  font-size: 30px;
+  padding: 10px;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
   max-width: 970px;
   border: solid 5px black;
-  margin-top: 50px;
-}
-
-.tile {
-  padding: 5px;
+  margin-top: 20px;
 }
