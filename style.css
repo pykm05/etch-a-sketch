@@ -31,3 +31,7 @@ input {
   border: solid 5px black;
   margin-top: 20px;
 }
+
+.tile {
+  border: 2px solid lightgray;
+}
